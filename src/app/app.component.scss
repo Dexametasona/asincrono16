@@ -1,0 +1,16 @@
+:host{
+    display: flex;
+    height: 100%;
+}
+ul{
+    display: grid;
+    grid-template-rows: 150px 75px 75px 75px;
+    li{
+        display: flex;
+        align-items: center;
+    }
+    a{
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+}
